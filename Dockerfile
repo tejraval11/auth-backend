@@ -1,4 +1,4 @@
-FROM eclipse-termurin:17-jdk
+FROM eclipse-temurin:17-jdk
 WORKDIR /app
 COPY . .
 RUN chmod +x mvnw
